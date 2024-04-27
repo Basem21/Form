@@ -1,0 +1,96 @@
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: white 3px solid;
+    margin: auto;
+}
+
+.avatar-container {
+    position: absolute;
+    top: -30px;
+    z-index: 3;
+}
+
+.black-paragraph {
+    background-color: black;
+    color: #c7bfbf;
+    padding: 10px 10px 15px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 10px !important;
+}
+
+/* Form Container */
+
+.formContainer .dataForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formContainer .photoIcon {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.formContainer form-title {
+    display: flex;
+    align-items: center;
+}
+
+
+.formContainer .subBtn {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.formContainer small {
+    color: #c7bfbf
+}
+
+p{
+ font-size: 12px;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+div.primary-paragraph{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.intro .details{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.tab{
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+}
+
